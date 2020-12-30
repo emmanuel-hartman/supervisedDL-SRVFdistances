@@ -1,15 +1,15 @@
 # supervisedDL-SRVFdistances
-A supervised DL framework for computing pairwise SRV elastic shape distances between curves as defined in *Supervised deep learning of elastic SRV distances on the shape space of curves*. Includeds functions to define a Keras model and train the model with shape preserving data augmentation.
+A supervised DL framework for computing pairwise SRV elastic shape distances between curves as defined in *Supervised deep learning of elastic SRV distances on the shape space of curves*. Includeds functions to define a Keras model and train the model with shape preserving data augmentation. 
 
 # Requirements
 
-  -Numpy
+  -Numpy 1.18.1
 
-  -Scipy
+  -Scipy 1.4.1
 
-  -TesorFlow
+  -TensorFlow 2.3.0
 
-  -Keras
+  -Keras 2.4.3
 
 # Main Functions
 **defineModel(length, dim, closed, verbose=True)**
