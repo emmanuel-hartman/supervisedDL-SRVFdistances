@@ -28,12 +28,12 @@ Please cite this paper in your work.
 A Jupyter Notebook called *Examples.ipynb* has been included with examples of usage of our main functions. This covers our functions that declare a Keras model with the structure outlined in *Supervised deep learning of elastic SRV distances on the shape space of curves*, train the network using shape preserving data augmentation, and generate random curves from the same shape class as another curve. Further, in the Jupyter Notebook called *TrainedNetworks.ipynb* we outline how to use one of our pretrained networks (include in the Data folder) to compute a distance between two curves. 
 
 
-#Trained Networks
+# Trained Networks
 
 In the data folder we include two networks, defined and trained in our framework. 
 ...
 
-#Main Functions
+# Main Functions
 **defineModel(length, dim, closed, verbose=True)**
 
     Parameters
@@ -150,5 +150,6 @@ In the data folder we include two networks, defined and trained in our framework
         trimmed array representing the shape class of f1
 
 
-#Contact
+# Contact
+
 elh18e(at)my.fsu.edu
