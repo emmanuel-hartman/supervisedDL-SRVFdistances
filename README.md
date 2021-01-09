@@ -32,7 +32,7 @@ A Jupyter Notebook called *Examples.ipynb* has been included with examples of us
 
 In the data folder we include two networks, defined and trained in our framework. The first, called *Model_Synthetic1.h5* is trained on open, real valued functions discretized at 100 points from our Synthetic I data set. Model_Synthetic1 was trained for 500 epochs with parameters trainsize=10000 and reparamn=10. We plot the mean squared error of this model on the training data as well as on unseen testing data.
 
-|<img src="Data/LossPlot.png" width="400" height="400"> <img src="Data/LossPlot2D.png" width="400" height="400">|
+|<img src="Data/LossPlot.png" width="500" height="500"> <img src="Data/LossPlot2D.png" width="500" height="500">|
 |:--:| 
 | *Mean Squared Error of the network on training data (blue) and testing data (red)* |
 | *The x-axis represents the number of training iterations* |
