@@ -56,7 +56,7 @@ In the data folder we include two networks, defined and trained in our framework
     ----------
     model: keras model
         new model with layers as defined in 
-        *Supervised deep learning of elastic SRV distanceson the shape space of curves*
+        *Supervised deep learning of elastic SRV distances on the shape space of curves*
 
 **trainModelwSPDA(model, length, dim, closed, otrData, otrLabels, e, trainsize=None, reparamn=10, verbose=True)**
 
