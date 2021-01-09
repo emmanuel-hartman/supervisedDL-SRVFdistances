@@ -32,11 +32,10 @@ A Jupyter Notebook called *Examples.ipynb* has been included with examples of us
 
 In the data folder we include two networks, defined and trained in our framework. The first, called *Model_Synthetic1.h5* is trained on open, real valued functions discretized at 100 points from our Synthetic I data set. Model_Synthetic1 was trained for 500 epochs with parameters trainsize=10000 and reparamn=10. We plot the mean squared error of this model on the training data as well as on unseen testing data.
 
-|![LossPlot.png](Data/LossPlot.png)|
+|<img src="Data/LossPlot.png" width="400" height="400"> <img src="Data/LossPlot2D.png" width="400" height="400">|
 |:--:| 
 | *Mean Squared Error of the network on training data (blue) and testing data (red)* |
 | *The x-axis represents the number of training iterations* |
-
 # Main Functions
 **defineModel(length, dim, closed, verbose=True)**
 
@@ -54,7 +53,8 @@ In the data folder we include two networks, defined and trained in our framework
     Returns        
     ----------
     model: keras model
-        new model with layers as defined in *Supervised deep learning of elastic SRV distanceson the shape space of curves*
+        new model with layers as defined in 
+        *Supervised deep learning of elastic SRV distanceson the shape space of curves*
 
 **trainModelwSPDA(model, length, dim, closed, otrData, otrLabels, e, trainsize=None, reparamn=10, verbose=True)**
 
