@@ -153,7 +153,8 @@ In the *TrainedNetworks* folder we include two networks, defined and trained in 
     ----------
     f : numpy array
         trimmed array representing the shape class of f1
-#License
+        
+# License
 
 You may redistribute and/or modify this code under the terms of the GNU General Public License as published by the Free Software Foundation.
 
