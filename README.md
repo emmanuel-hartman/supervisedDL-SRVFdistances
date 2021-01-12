@@ -1,5 +1,5 @@
 # supervisedDL-SRVFdistances
-A supervised DL framework for computing pairwise SRV elastic shape distances between curves as defined in *Supervised deep learning of elastic SRV distances on the shape space of curves*. Includeds functions to define a Keras model and train the model with shape preserving data augmentation. 
+A supervised DL framework for computing pairwise SRV elastic shape distances between curves as defined in *Supervised deep learning of elastic SRV distances on the shape space of curves*. This code includes functions to define a Keras model and train the model with shape-preserving data augmentation. 
 
 # References
 
@@ -27,12 +27,12 @@ Our code is written in Python and includes the following Python libraries:
 
 # Usage
 
-A Jupyter Notebook called *Examples.ipynb* has been included with examples of usage of our main functions. This covers our functions that declare a Keras model with the structure outlined in *Supervised deep learning of elastic SRV distances on the shape space of curves*, train the network using shape preserving data augmentation, and generate random curves from the same shape class as another curve. Further, in the Jupyter Notebook called *TrainedNetworks.ipynb* we outline how to use one of our pretrained networks (include in the Data folder) to compute a distance between two curves. 
+A Jupyter Notebook called *Examples.ipynb* has been included with examples of usage of our main functions. This covers our functions that declare a Keras model with the structure outlined in *Supervised deep learning of elastic SRV distances on the shape space of curves*, train the network using shape-preserving data augmentation, and generate random curves from the same shape class as another curve. Further, in the Jupyter Notebook called *TrainedNetworks.ipynb* we outline how to use one of our pre-trained networks (included in the Data folder) to compute a distance between two curves. 
 
 
 # Trained Networks
 
-In the *TrainedNetworks* folder we include two networks, defined and trained in our framework. The first, called *Model_Synthetic1.h5* was trained on open, real valued functions discretized at 90 points from our Synthetic I data set. Model_Synthetic1 was trained for 500 epochs with parameters trainsize=10000 and reparamn=10. We plot the mean squared error of this model on the training data as well as on unseen testing data. The second, called *Model_Kimia.h5* wass trained on closed, 2-dimensional curves discretized at 100 points from the Kimia dataset. Model_Kimia was trained for 50 epochs with parameters trainsize=10000 and reparamn=10. We illustrate the usage of these frameworks in the Jupyter Notebook called *TrainedNetworks.ipynb*.
+In the *TrainedNetworks* folder we include two networks, defined and trained in our framework. The first, called *Model_Synthetic1.h5* was trained on open, real-valued functions discretized at 90 points from our Synthetic I data set. Model_Synthetic1 was trained for 500 epochs with parameters trainsize=10000 and reparamn=10. We plot the mean squared error of this model on the training data as well as on unseen testing data. The second, called *Model_Kimia.h5* was trained on closed, 2-dimensional curves discretized at 100 points from the Kimia dataset. Model_Kimia was trained for 50 epochs with parameters trainsize=10000 and reparamn=10. We illustrate the usage of these frameworks in the Jupyter Notebook called *TrainedNetworks.ipynb*.
 |<img src="Data/LossPlot.png" width="300" height="300"> <img src="Data/LossPlot2DCurves.png" width="300" height="300">|
 |:--:| 
 | *Mean Squared Error of *Model_Synthetic1.h5* (left) and *Model_Kimia.h5* (right) on training data (blue) and testing/validation data (red)* |
@@ -62,7 +62,7 @@ In the *TrainedNetworks* folder we include two networks, defined and trained in 
     Parameters
     ----------
     model : keras model
-        keras model to be trained, can be custom or created with with defineModel
+        keras model to be trained, can be custom or created with defineModel
     length : int
         length of the curves for training 
     dim : int
@@ -91,7 +91,7 @@ In the *TrainedNetworks* folder we include two networks, defined and trained in 
     Parameters
     ----------
     model : keras model
-        keras model to be trained, can be custom or created with with defineModel
+        keras model to be trained, can be custom or created with defineModel
     length : int
         length of the curves for training 
     dim : int
@@ -164,3 +164,5 @@ You should have received a copy of the GNU General Public License along with thi
 # Contact
 
 elh18e(at)my.fsu.edu
+
+yashil.sukurdeep(at)jhu.edu
