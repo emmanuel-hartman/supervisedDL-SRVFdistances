@@ -34,7 +34,7 @@ A Jupyter Notebook called *Examples.ipynb* has been included with examples of us
 
 In the *TrainedNetworks* folder we include two networks, defined and trained in our framework. The first, called *Model_Synthetic1.h5* is trained on open, real valued functions discretized at 90 points from our Synthetic I data set. Model_Synthetic1 was trained for 500 epochs with parameters trainsize=10000 and reparamn=10. We plot the mean squared error of this model on the training data as well as on unseen testing data. The second, called *Model_Kimia.h5* is trained on closed, 2-dimensional curves discretized at 100 points from the Kimia dataset. Model_Kimia was trained for 50 epochs with parameters trainsize=10000 and reparamn=10. We illustrate the usage of these frameworks in the Jupyter Notebook called *TrainedNetworks.ipynb*.
 
-|<img src="Data/LossPlot.png" width="450" height="450"> <img src="Data/LossPlot2DCurves.png" width="450" height="450">|
+|<img src="Data/LossPlot.png" width="300" height="300"> <img src="Data/LossPlot2DCurves.png" width="300" height="300">|
 |:--:| 
 | *Mean Squared Error of the network on training data (blue) and testing data (red)* |
 | *The x-axis represents the number of training iterations* |
