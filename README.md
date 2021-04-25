@@ -4,11 +4,11 @@ A supervised DL framework for computing pairwise SRV elastic shape distances bet
 # References
 
 ```
-@misc{DL-SRVF,
-  author  = {Emmanuel Hartman, Yashil Sukurdeep, Nicolas Charon, Eric Klassen, and Martin Bauer},
-  title   = {Supervised deep learning of elastic SRV distances on the shape space of curves},
-  note    = {Preprint available on ArXiv soon},
-  year    = {2021},
+@article{hartman2021supervised,
+  title={Supervised deep learning of elastic SRV distances on the shape space of curves},
+  author={Hartman, Emmanuel and Sukurdeep, Yashil and Charon, Nicolas and Klassen, Eric and Bauer, Martin},
+  journal={DiffCVML}
+  url=https://arxiv.org/abs/2101.04929
 }
 ```
 Please cite this paper in your work.
